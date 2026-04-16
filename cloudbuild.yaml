@@ -8,8 +8,7 @@ steps:
         echo "recpository name: $REPO_NAME"
         echo "branch name: $BRANCH_NAME"
         echo "commit sha: $COMMIT_SHA"
-        echo "build id: $BUILD_ID"
-        echo "build trigger id: $BUILD_TRIGGER_ID"
+        
 
 options:
   logging: CLOUD_LOGGING_ONLY
