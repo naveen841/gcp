@@ -1,0 +1,14 @@
+steps:
+  - name: 'ubuntu'
+    entrypoint: 'sh'
+    args:
+      - '-c'
+      - | 
+        echo "welcome to cloud build"
+        echo "recpository name: $REPO_NAME"
+        echo "branch name: $BRANCH_NAME"
+        echo "commit sha: $COMMIT_SHA"
+        echo "build id: $BUILD_ID"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
